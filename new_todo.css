@@ -131,3 +131,64 @@ h2{
     color: #ffff;
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    
+   
+    h1 {
+      font-size: 25px;
+    }
+    #Inp
+     {
+      font-size: 16px;
+      padding: 8px;
+      width:60%
+    }
+    .addBtn{
+        font-size: 16px;
+        margin-left: 20px;
+        width: 35px;
+        font-size: 22px;
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 5px;
+        font-weight: 900;
+     
+
+    }
+    .Items {
+       
+        display: flex;
+
+        flex-direction: column;
+    }
+    .one {
+        border: 2px solid black;
+        width: fit-content;
+        padding: 20px;
+        /* margin-right:100px ; */
+        margin-right: 20px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        font-family: 'Kumbh Sans', sans-serif;
+        text-align: center;
+        background-color: white;
+        border-radius: 12px;
+    }
+    
+    .one h1{
+      font-size: 18px;
+      margin-right: 20px;
+
+    }
+    .delClass:active {
+        color: red;
+        border: none;
+    
+    }
+
+
+  }
+  
